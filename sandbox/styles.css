@@ -1,0 +1,41 @@
+h1 {
+    color: fuchsia;
+    font-size: 100px;
+}
+
+.card {
+    /* background-color: aquamarine; */
+    width: 200px;
+    /* height: style H or W, not both...the other will adjust itself */
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    /* only moves button to right...unique to text */
+    position: relative;
+}
+
+.card p {
+    text-align: right;
+    /* select the <p> inside the .card to align text */
+}
+/* to move 35% to corner, target it separate */
+.discount {
+    color: white;
+    background-color: red;
+    height: 35px;
+    width: 35px;
+    /* position: relative;
+    top: -27px;
+    right: -27px; */
+    /* text stays at top so... */
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -17px;
+    right: -17px;
+    border-radius: 50px;
+}
+
